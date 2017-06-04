@@ -8,5 +8,7 @@ Work in Progress
 Approaches:
 1. Intercept flying packets and blocks it from reachig client when type7/8 (descent/landing) is detected. Same command is sent to client instead using proxy
 
+2.Intercept player location packets from server when landing (type 8) and sets w to what the client is sending to server
+
 Report:
 4/6/17- Does not work, still bugs out but bug is fixed if char is in seelie (????)
